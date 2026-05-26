@@ -121,7 +121,7 @@
         if ($(".hero-slider").length) {
             $(".hero-slider").slick({
                 autoplay: true,
-                autoplaySpeed: 8000,
+                autoplaySpeed: 7000,
                 pauseOnHover: false,
                 arrows: true,
                 prevArrow: '<button type="button" class="slick-prev">Previous</button>',
