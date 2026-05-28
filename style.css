@@ -2560,14 +2560,12 @@ a:focus {
 
 @media (max-width: 991px) {
   .site-header .topbar {
-    height: 40px;
     line-height: 40px;
   }
 }
 
 @media (max-width: 767px) {
   .site-header .topbar {
-    height: auto;
     line-height: auto;
     text-align: center;
     padding: 10px 0 20px;
