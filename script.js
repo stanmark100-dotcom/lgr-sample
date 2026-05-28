@@ -284,53 +284,53 @@
     -------------------------------------------*/
 
     // Function for clone an element for sticky menu
-    function cloneNavForSticyMenu($ele, $newElmClass) {
-        $ele.addClass('original').clone().insertAfter($ele).addClass($newElmClass).removeClass('original');
-    }
+    // function cloneNavForSticyMenu($ele, $newElmClass) {
+    //     $ele.addClass('original').clone().insertAfter($ele).addClass($newElmClass).removeClass('original');
+    // }
 
-    // clone home style 1 navigation for sticky menu
-    if ($('.header-style-1 .navigation').length) {
-        cloneNavForSticyMenu($('.header-style-1 .navigation'), "sticky");
-    }
+    // // clone home style 1 navigation for sticky menu
+    // if ($('.header-style-1 .navigation').length) {
+    //     cloneNavForSticyMenu($('.header-style-1 .navigation'), "sticky");
+    // }
 
-    // clone home style 2 navigation for sticky menu
-    if ($('.header-style-2 .navigation').length) {
-        cloneNavForSticyMenu($('.header-style-2 .navigation'), "sticky");
-    }
+    // // clone home style 2 navigation for sticky menu
+    // if ($('.header-style-2 .navigation').length) {
+    //     cloneNavForSticyMenu($('.header-style-2 .navigation'), "sticky");
+    // }
 
-    // clone home style 3 navigation for sticky menu
-    if ($('.header-style-3 .navigation').length) {
-        cloneNavForSticyMenu($('.header-style-3 .navigation'), "sticky");
-    }
+    // // clone home style 3 navigation for sticky menu
+    // if ($('.header-style-3 .navigation').length) {
+    //     cloneNavForSticyMenu($('.header-style-3 .navigation'), "sticky");
+    // }
 
-    // Function for sticky menu
-    function stickIt($stickyClass, $toggleClass) {
+    // // Function for sticky menu
+    // function stickIt($stickyClass, $toggleClass) {
 
-        if ($(window).scrollTop() >= 500) {
-            var orgElement = $(".original");
-            var coordsOrgElement = orgElement.offset();
-            var leftOrgElement = coordsOrgElement.left;  
-            var widthOrgElement = orgElement.css("width");
+    //     if ($(window).scrollTop() >= 500) {
+    //         var orgElement = $(".original");
+    //         var coordsOrgElement = orgElement.offset();
+    //         var leftOrgElement = coordsOrgElement.left;  
+    //         var widthOrgElement = orgElement.css("width");
 
-            $stickyClass.addClass($toggleClass);
+    //         $stickyClass.addClass($toggleClass);
 
-            $stickyClass.css({
-                "width": widthOrgElement
-            }).show();
+    //         $stickyClass.css({
+    //             "width": widthOrgElement
+    //         }).show();
 
-            $(".original").css({
-                "visibility": "hidden"
-            });
+    //         $(".original").css({
+    //             "visibility": "hidden"
+    //         });
 
-        } else {
+    //     } else {
 
-            $(".original").css({
-                "visibility": "visible"
-            });
+    //         $(".original").css({
+    //             "visibility": "visible"
+    //         });
 
-            $stickyClass.removeClass($toggleClass);
-        }
-    }
+    //         $stickyClass.removeClass($toggleClass);
+    //     }
+    // }
 
 
     /*------------------------------------------
