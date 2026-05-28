@@ -2137,15 +2137,21 @@ a:focus {
 }
 
 .site-header .navigation {
-  background-color:rgb(32, 31, 31);
-  margin-bottom: 0;
+  background-color: rgb(32, 31, 31);
   border: 0;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -o-border-radius: 0;
   -ms-border-radius: 0;
   border-radius: 0;
+  position: fixed;
+  z-index: 999;
+   top:0;
+  right:0;
+  left: 0; 
+
 }
+
 
 .site-header .navigation > .container {
   position: relative;
@@ -2543,8 +2549,13 @@ a:focus {
 /*** topbar ***/
 .site-header .topbar {
   background-color: #f2f2ee;
-  height: 60px;
+  height: 5px;
   line-height: 60px;
+  position:fixed;
+  z-index: 999;
+  top: 0;
+  right:0;
+  left:0;
 }
 
 @media (max-width: 991px) {
