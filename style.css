@@ -919,7 +919,7 @@ a:focus {
 }
 
 .page-title {
-  background: url("../images/pg-title/img-5.jpg") center center/cover no-repeat local;
+  background: url("./img-5.jpg") center center/cover no-repeat local;
   height: 365px;
   text-align: center;
   position: relative;
