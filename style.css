@@ -5005,7 +5005,7 @@ justify-items: center;
 #6.0	clients-section
 --------------------------------------------------------------*/
 .clients-pg .page-title {
-  background: url("../images/pg-title/img-3.jpg") center center/cover no-repeat local;
+  background: url("./clients.jpg") center center/cover no-repeat local;
 }
 
 .clients-section .client {
