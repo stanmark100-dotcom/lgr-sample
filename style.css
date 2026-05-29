@@ -5891,7 +5891,7 @@ justify-items: center;
 #12.0	services-content-wrapper
 --------------------------------------------------------------*/
 .services-pg .page-title {
-  background: url("../images/pg-title/img-7.jpg") center center/cover no-repeat local;
+  background: url("./services.jpg") center center/cover no-repeat local;
 }
 
 .services-pg .services-content {
