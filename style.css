@@ -5370,7 +5370,7 @@ justify-items: center;
 #9.0	page title
 --------------------------------------------------------------*/
 .faq-pg .page-title {
-  background: url("../images/pg-title/img-3.jpg") center center/cover no-repeat local;
+  background: url("./services.jpg") center center/cover no-repeat local;
 }
 
 .faq-pg .testimonials-s2-faq .faq-col {
